@@ -23,10 +23,15 @@ This project demonstrates end-to-end ML workflow: data preprocessing, model trai
 ## 📂 Project Structure
 
 ```
-├── app.py              # Main Flask/Streamlit app
-├── model.pkl           # Trained model (scikit-learn, pickled)
-├── requirements.txt    # Dependencies
-├── README.md           # Project documentation
+├── app.py             
+├── vectorizer.pkl           
+├── requirements.txt    
+├── README.md           
+├── text_cleaner.pkl
+├── LICENSE
+├── kaggle_fakenews_nb.ipynb
+├── templates
+   ├── index.html
 ```
 
 ---
@@ -36,7 +41,7 @@ This project demonstrates end-to-end ML workflow: data preprocessing, model trai
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/text-classification-app.git
+   git clone https://github.com/YashJha12421/Fake_News_Detection.git
    cd text-classification-app
    ```
 
@@ -48,11 +53,7 @@ This project demonstrates end-to-end ML workflow: data preprocessing, model trai
 
 3. Run the app:
 
-   ```bash
-   streamlit run app.py
-   ```
-
-   or (if Flask)
+   
 
    ```bash
    python app.py
@@ -70,7 +71,7 @@ This project demonstrates end-to-end ML workflow: data preprocessing, model trai
   * Stopword removal
   * Lemmatization
 
-* Models used: `Naive Bayes`, `Logistic Regression`, etc.
+* Models used: `XGBoost`, random forest' `Logistic Regression`
 
 * Final model exported as `model.pkl` and loaded in the web app.
 
