@@ -71,9 +71,9 @@ This project demonstrates end-to-end ML workflow: data preprocessing, model trai
   * Stopword removal
   * Lemmatization
 
-* Models used: `XGBoost`, random forest' `Logistic Regression`
+* Models used: `Random Forest`, `Logistic Regression`, `XGBoost`
 
-* Final model exported as `model.pkl` and loaded in the web app.
+* Final model exported as `fake_news_model.pkl`, which used XGBoost with 99.76% accuracy, and loaded in the web app.
 
 ---
 
@@ -87,20 +87,49 @@ This project demonstrates end-to-end ML workflow: data preprocessing, model trai
 
 ## 📖 Visualizations & Results
 
-* Example performance metrics (Accuracy, F1-score, Confusion Matrix)
-* Example feature importance (top words contributing to classification)
 
-*(Add charts/screenshots here — from Kaggle notebook)*
+* Logistic regression Accuracy: 0.9870
+
+
+                          precision    recall  f1-score   support
+
+                   0          0.99      0.98      0.99      4710
+                   1          0.98      0.99      0.99      4270
+
+            
+          macro avg           0.99      0.99      0.99      8980
+          weighted avg        0.99      0.99      0.99      8980
+
+
+* Random Forest Accuracy: 0.9962
+
+                      precision    recall  f1-score   support
+
+                   0       1.00      1.00      1.00      4710
+                   1       1.00      1.00      1.00      4270
+
+   
+           macro avg       1.00      1.00      1.00      8980
+        weighted avg       1.00      1.00      1.00      8980
+  
+* XGBoost Accuracy: 0.9976
+
+                      precision    recall  f1-score   support
+
+                   0       1.00      1.00      1.00      4710
+                   1       1.00      1.00      1.00      4270
+
+     
+           macro avg       1.00      1.00      1.00      8980
+        weighted avg       1.00      1.00      1.00      8980
+
+
 
 ---
 
-## 📌 Future Improvements
 
-* Add support for multiple ML models to compare
-* Enhance UI with more interactivity
-* Deploy with Docker/Heroku
 
----
+
 
 ## 🤝 Contributing
 
@@ -124,4 +153,4 @@ MIT License
 
 ---
 
-Do you want me to also **include visuals (accuracy chart, confusion matrix, word cloud, etc.)** in the README itself, or keep them only in your **Kaggle notebook** and just reference them in the README?
+
