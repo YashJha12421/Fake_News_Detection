@@ -4,14 +4,14 @@ An ML model which predicts whether a news article is real or fake, along with a 
 
 
 
-# 📝 Fake/Real News Classification Web App
+# Fake/Real News Classification Web App
 
 A simple machine learning web app for text classification, built with Flask/Streamlit, trained using scikit-learn on Kaggle.
 This project demonstrates end-to-end ML workflow: data preprocessing, model training, saving with `pickle`, and deploying an interactive web app.
 
 
 
-## 🚀 Features
+## Features
 
 * Preprocesses text using **NLTK** (stopword removal, lemmatization, etc.)
 * ML models trained on Kaggle (`scikit-learn`, `pandas`, `numpy`)
@@ -20,7 +20,7 @@ This project demonstrates end-to-end ML workflow: data preprocessing, model trai
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 ├── app.py             
@@ -36,7 +36,7 @@ This project demonstrates end-to-end ML workflow: data preprocessing, model trai
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 1. Clone the repository:
 
@@ -61,7 +61,7 @@ This project demonstrates end-to-end ML workflow: data preprocessing, model trai
 
 ---
 
-## 📊 Model Training
+## Model Training
 
 * Dataset and training were handled in **Kaggle Notebooks**.
 
@@ -77,15 +77,16 @@ This project demonstrates end-to-end ML workflow: data preprocessing, model trai
 
 ---
 
-## 🎥 Demo
+## Demo
 
-👉 [Live Demo on Streamlit Cloud](https://your-streamlit-link) *(if deployed)*
+<img width="1023" height="714" alt="image" src="https://github.com/user-attachments/assets/87d5a1ad-6ab3-47ba-b98e-9ae19cf215c1" />
 
-*(Screenshot of the web app UI can go here)*
+
+
 
 ---
 
-## 📖 Visualizations & Results
+## Visualizations & Results
 
 
 * Logistic regression Accuracy: 0.9870
@@ -131,13 +132,13 @@ This project demonstrates end-to-end ML workflow: data preprocessing, model trai
 
 
 
-## 🤝 Contributing
+## Contributing
 
 Pull requests are welcome! For major changes, please open an issue first.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **Python**
 * **NLTK**
@@ -147,7 +148,7 @@ Pull requests are welcome! For major changes, please open an issue first.
 
 ---
 
-## 📜 License
+## License
 
 MIT License
 
