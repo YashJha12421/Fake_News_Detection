@@ -6,7 +6,7 @@ An NLP model which predicts whether a news article is real or fake, along with a
 
 # Fake/Real News Classification Web App
 
-A simple machine learning web app for text classification, built with Flask/Streamlit, trained using scikit-learn on Kaggle.
+A simple machine learning web app for text classification, built with Flask, trained using scikit-learn on Kaggle.
 This project demonstrates end-to-end ML workflow: data preprocessing, model training, saving with `pickle`, and deploying an interactive web app.
 
 
